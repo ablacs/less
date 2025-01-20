@@ -11,7 +11,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #192a56;
+  background-color: #2c2426;
   color: #f5f6fa;
 }
 li {
@@ -39,9 +39,19 @@ li {
 header {
   padding-bottom: 24px;
 }
-header .profile-avatar {
-  display: block;
+header .profile-avatar-container {
+  width: 300px;
+  height: 300px;
+  background-color: #F8F272;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto 24px;
+}
+header .profile-avatar {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 .profile-bio {
@@ -75,19 +85,19 @@ header .profile-avatar {
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #0097e6;
+  background-color: #F8F272;
   display: block;
   border-radius: 30px;
   padding: 16px 20px;
   text-align: center;
   margin-bottom: 16px;
-  color: #f5f6fa;
+  color: #212D40;
   font-weight: bold;
-  border: 2px solid #0097e6;
+  border: 2px solid #F8F272;
 }
 .projects-list-item a:hover {
-  color: #0097e6;
+  color: #F8F272;
   background-color: transparent;
-  border-color: #0097e6;
-  transition: all ease 0.4s;
+  border-color: #F8F272;
+  transition: all ease 0.3s;
 }
